@@ -335,7 +335,7 @@ Before running the script:
 Run the following commands:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Med-Tl/installation.git
 
 cd installation
 
