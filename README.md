@@ -25,7 +25,7 @@ The script also:
 Clone the repository on your Ubuntu machine:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Med-Tl/installation.git
 ```
 
 Move into the project directory:
