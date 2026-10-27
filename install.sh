@@ -37,7 +37,7 @@ ask_install() {
 echo
 echo "Updating system..."
 
-if apt update && apt upgrade -y; then
+if apt update; then
     echo "System updated successfully."
 else
     echo "System update encountered errors."
@@ -132,7 +132,7 @@ fi
 echo
 echo "Running final update..."
 
-if apt update && apt upgrade -y; then
+if apt update; then
     echo "Final update completed."
 else
     echo "Final update completed with some errors."
